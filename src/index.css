@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.quest-render {
+    z-index: -10
+}
+
+.alert-box {
+    z-index: 50;
+}
+
+@layer components {
+    .interest-span {
+        @apply border border-gray-400 mx-2 my-2 py-2 px-3 cursor-pointer
+    }
+}
